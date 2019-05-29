@@ -1,0 +1,54 @@
+# Project information
+site_name: Schuldatentransferformat
+site_description: 'Dokumentation zum Schuldatentransferformat'
+site_author: 'STÜBER SYSTEMS GmbH'
+site_url: 'https://doc.sdtf.stueber.de'
+
+# Copyright
+copyright: © 2019 STÜBER SYSTEMS GmbH
+
+# Repository
+repo_name: 'Auf GitHub'
+repo_url: 'https://github.com/stuebersystems/doc.sdtf.de'
+
+# Theming
+theme: 
+    name: null
+    custom_dir: 'theme'
+    language: de
+    direction:
+    feature:
+        tabs: false
+    palette:
+        primary: 'blue'
+        accent: 'deep orange'
+    font:
+        text: Roboto
+        code: Roboto Mono
+    favicon: assets/logos/favicon.ico
+    logo: 'assets/logos/logo.svg'
+    include_search_page: false
+    search_index_only: true
+    static_templates:
+      - 404.html
+
+# Customization
+extra_css:
+    - assets/css/custom.css
+
+# Plugins    
+#plugins:
+#    - img2fig
+
+# Extensions    
+markdown_extensions:
+    - admonition
+  
+# Navigation  
+nav:
+- Überblick: index.md
+- Zeilenaufbau: zeilenaufbau.md
+- Unterrichtsart und Fachstatus: unterrichtsart-und-fachstatus.md
+- DAVINCI-Zeilentypen: davinci-zeilentypen.md
+- MAGELLAN-Zeilentypen: magellan-zeilentypen.md
+- DAVINCI-Anonymisierung: davinci-anonymisierung.md
