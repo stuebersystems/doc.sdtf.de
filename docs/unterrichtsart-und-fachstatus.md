@@ -8,22 +8,22 @@ und zwar je Eintrag „Kürzel“ und „Schlüssel“. Beide Schlüsselverzeich
 
 Fachstatus:
 
-Schlüssel | Bedeutung
---------- | ---------
-Standard  | Standardeinstellung
-AufgestGK | Aufgestockter Grundkurs
-1PF       | 1. Prüfungsfach
-2PF       | 2. Prüfungsfach
-3PF       | 3. Prüfungsfach
-4PF       | 4. Prüfungsfach
-Befreit   | Vom Unterrcht befreit
-Freiw     | Freiwilliger Unterricht
-Wahlb     | Wahlbereich
+| Schlüssel | Bedeutung               |
+| --------- | ----------------------- |
+| Standard  | Standardeinstellung     |
+| AufgestGK | Aufgestockter Grundkurs |
+| 1PF       | 1. Prüfungsfach         |
+| 2PF       | 2. Prüfungsfach         |
+| 3PF       | 3. Prüfungsfach         |
+| 4PF       | 4. Prüfungsfach         |
+| Befreit   | Vom Unterrcht befreit   |
+| Freiw     | Freiwilliger Unterricht |
+| Wahlb     | Wahlbereich             |
 
 Unterrichtsart:
 
-Schlüssel | Bedeutung
---------- | ---------
-Kurs      | Standardeinstellung
-GK        | Grundkurs
-LK        | Leistungskurs
+| Schlüssel | Bedeutung           |
+| --------- | ------------------- |
+| Kurs      | Standardeinstellung |
+| GK        | Grundkurs           |
+| LK        | Leistungskurs       |
