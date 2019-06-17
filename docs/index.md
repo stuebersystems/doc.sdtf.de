@@ -11,6 +11,7 @@ Gültig für folgende Programmversionen:
 * DAVINCI 7
 * DAVINCI 6
 * MAGELLAN 6
+* MAGELLAN 8
 
 
 
