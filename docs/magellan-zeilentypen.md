@@ -98,3 +98,5 @@
 | 20. | I   | Schüleranzahl                                           |
 | 21. | C   | Kategorie                                               |
 | 22. | I   | Klassenverband (1=ja, 0=nein)                           |
+
+D6;Klassen-ID;Lehrer-ID;Fach-Kürzel;Fach-Schlüssel;Unterrichtsart-Schlüssel;Fachstatus-Schlüssel;KursNr;Soll;Soll2;KlassenIst;LehrerIst;D6-ID;D6-Block;Block-ID;Soll-Bemerkung;Bemerkung;Beifach;Unterrichtsform;SchülerAnzahl;Kategorie;Klassenverband
