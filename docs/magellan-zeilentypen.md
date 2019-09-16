@@ -66,11 +66,12 @@
 | --- | --- | -------------------------------------------------------------- |
 | 1.  | C   | Zeilentyp D5 – Lehrer-Soll-Berechnung - MAGELLAN Datawarehouse |
 | 2.  | N   | Lehrer-ID                                                      |
-| 3.  | N   | Position                                                       |
-| 4.  | C   | Soll-Schlüssel-Kürzel                                          |
-| 5.  | C   | Soll-Schlüssel-Typ                                             |
-| 6.  | N   | Dauer                                                          |
-| 7.  | C   | Bemerkung                                                      |
+| 3.  | N   | Lehrer-Kürzel                                                  |
+| 4.  | N   | Position                                                       |
+| 5.  | C   | Soll-Schlüssel-Kürzel                                          |
+| 6.  | C   | Soll-Schlüssel-Typ                                             |
+| 7.  | N   | Dauer                                                          |
+| 8.  | C   | Bemerkung                                                      |
 
 ## Zeilentyp „D6“
 
