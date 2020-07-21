@@ -270,7 +270,7 @@
 
 | Nr  | Typ | Bedeutung                                                                        |
 | --- | --- | -------------------------------------------------------------------------------- |
-| 1.  | C   | Zeilentyp L9 – Lehrer Zeitpräferenzen (nur bis DAVINCI 5, ab Version 6 siehe F9) |
+| 1.  | C   | Zeilentyp L9 – Lehrer Zeitpräferenzen                                            |
 | 2.  | N   | ID                                                                               |
 | 3.  | C   | Lehrerkürzel                                                                     |
 | 4.  | N   | Anzahl der Zeitpräferenzen                                                       |
