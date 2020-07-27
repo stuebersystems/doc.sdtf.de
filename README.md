@@ -4,7 +4,7 @@ Dies ist die deutsche Dokumentation zum Schuldatentransferformat. Die Dokumentat
 
 ## MkDocs unter Windows installieren
 
-1. Installiere [Python](https://www.python.org). Gehe dazu auf die [Python-Download-Seite](https://www.python.org/downloads/) und lade Dir die aktuellste Version für Windows herunter. Für die Version 3.8.5 wäre dies beispielsweise der Link [Windows x86-64 executable installer](https://www.python.org/ftp/python/3.8.5/python-3.8.5-amd64.exe).
+1. Installiere [Python](https://www.python.org). Gehe dazu auf die [Python-Download-Seite](https://www.python.org/downloads/) und lade Dir die aktuellste Version für Windows herunter. 
 
 2. Starte das Installationspaket und beantworte alle Fragen.
 
