@@ -1,12 +1,10 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/asjsg44hgv1cfuxh?svg=true)](https://ci.appveyor.com/project/stueber/doc-sdtf-de)
-
 # Das Schuldatentransferformat
 
-Dies ist die deutsche Dokumentation zum Schuldatentransferformat. Die Dokumentation ist Open Source und wir haben sie mit [MkDocs](https://www.mkdocs.org) und [Material for MkDocs](https://squidfunk.github.io/mkdocs-material) realisiert. Push-Requests im master-branch werden in [AppVeyor](https://www.appveyor.com) getriggert, so dass jede Änderung automatisch veröffentlicht wird.
+Dies ist die deutsche Dokumentation zum Schuldatentransferformat. Die Dokumentation ist Open Source und wir haben sie mit [MkDocs](https://www.mkdocs.org) und [Material for MkDocs](https://squidfunk.github.io/mkdocs-material) realisiert. 
 
 ## MkDocs unter Windows installieren
 
-1. Installiere [Python](https://www.python.org). Gehe dazu auf die [Python-Download-Seite](https://www.python.org/downloads/) und lade Dir die aktuellste Version für Windows herunter. Für die Version 3.7.2 wäre dies beispielsweise der Link [Windows x86-64 executable installer](https://www.python.org/ftp/python/3.7.2/python-3.7.2-amd64.exe).
+1. Installiere [Python](https://www.python.org). Gehe dazu auf die [Python-Download-Seite](https://www.python.org/downloads/) und lade Dir die aktuellste Version für Windows herunter. Für die Version 3.8.5 wäre dies beispielsweise der Link [Windows x86-64 executable installer](https://www.python.org/ftp/python/3.8.5/python-3.8.5-amd64.exe).
 
 2. Starte das Installationspaket und beantworte alle Fragen.
 
@@ -14,7 +12,7 @@ Dies ist die deutsche Dokumentation zum Schuldatentransferformat. Die Dokumentat
 
 4. Tippe die Befehle `python --version` und `pip --version` ein, um die Python-Installation zu überprüfen. In beiden Fällen sollte eine Versionsnummer als Ausgabe in der Eingabeaufforderung erscheinen.
 
-5. Tippe jetzt den Befehl `pip install mkdocs`, um das Python-Package MkDocs zu installieren.
+5. Tippe jetzt den Befehl `pip install mkdocs mkdocs-material`, um das Python-Package *MkDocs* und das Theme *Material for MkDocs* zu installieren.
 
 6. Ein letzter Test: Tippe den Befehl `mkdocs --version` ein. Eine Versionsnummer in der Eingabeaufforderung zeigt Dir erneut, dass alles korrekt installiert wurde.
 
@@ -40,7 +38,7 @@ Willst du mit Git erstmal nichts zu tun haben, kannst Du das Repository auch als
 
 ## Mit MkDocs arbeiten
 
-Du hast Python und das Package MkDocs installiert, Du hast dieses Repository geklont oder als Zip-Archiv heruntergeladen. Jetzt kannst Du die Dokumentation lokal auf deinem Rechner generieren:
+Du hast Python und MkDocs installiert, Du hast dieses Repository geklont oder als Zip-Archiv heruntergeladen. Jetzt kannst Du die Dokumentation lokal auf deinem Rechner generieren:
 
 1. Starte die Eingabeaufforderung und wechsle in den Ordner `c:\docs\sdtf`.
 
@@ -49,11 +47,6 @@ Du hast Python und das Package MkDocs installiert, Du hast dieses Repository gek
 3. Um Dir das Ergebnis anzeigen zu lassen, tippe den Befehl `mkdocs serve` ein und öffne die Url `http://127.0.0.1:8000` in Deinem Webbrowser.
 
 Das Inhaltsverzeichnis findest Du in der Datei `mkdocs.yml`, die einzelnen Kapitel im Unterordner `docs`. 
-
-## Weitere Informationen
-
-+ [Alles zum Thema Git](https://git-scm.com/book/de/v2)
-+ [MkDocs Overview](https://www.mkdocs.org/#overview)
 
 ## Kann ich mithelfen?
 
