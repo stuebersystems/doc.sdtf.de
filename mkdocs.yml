@@ -5,7 +5,7 @@ site_author: 'STÜBER SYSTEMS GmbH'
 site_url: 'https://doc.sdtf.stueber.de'
 
 # Copyright
-copyright: © 2019 STÜBER SYSTEMS GmbH
+copyright: © 2020 STÜBER SYSTEMS GmbH
 
 # Repository
 repo_name: 'Auf GitHub'
@@ -13,18 +13,16 @@ repo_url: 'https://github.com/stuebersystems/doc.sdtf.de'
 
 # Theming
 theme: 
-    name: null
-    custom_dir: 'theme'
+    name: material
+    custom_dir: overrides
     language: de
-    direction:
     feature:
-        tabs: false
+        - tabs
+        - instant
     palette:
-        primary: 'blue'
-        accent: 'deep orange'
-    font:
-        text: Roboto
-        code: Roboto Mono
+        primary: 'indigo'
+        accent: 'amber'
+    font: false
     favicon: assets/logos/favicon.ico
     logo: 'assets/logos/logo.svg'
     include_search_page: false
@@ -32,14 +30,17 @@ theme:
     static_templates:
       - 404.html
 
+# Legal links
+extra:
+  legal:
+    - label: Impressum
+      link: https://www.stueber.de/imprint.php
+    - label: Datenschutz
+      link: https://legal.stueber.de/
+
 # Customization
 extra_css:
     - assets/css/custom.css
-
-# Plugins    
-#plugins:
-#    - search
-#    - img2fig
 
 # Extensions    
 markdown_extensions:
